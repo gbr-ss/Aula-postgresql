@@ -26,7 +26,7 @@ def listar_aluos():
         finally:
             cursor.close()
             conexao.close()
-lista = listar_aluos()
+lista = listar_alunos()
 for aluno in lista:
     print(aluno[0], aluno[1])
 def atualizar_idade(id_aluno, nova_idade):

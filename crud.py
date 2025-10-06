@@ -15,7 +15,7 @@ def criar_aluno(nome, idade):
             cursor.close()
             conexao.close()
 
-def listar_aluos():
+def listar_alunos():
     conexao, cursor = conectar()
     if conexao:
         try:

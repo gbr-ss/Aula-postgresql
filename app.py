@@ -22,5 +22,6 @@ elif menu == "Listar":
     st.subheader("Atualizar idade")
     alunos = listar_alunos()
     if alunos:
-        for linha in alunos:
-            st.dataframe(alunos)
+        st.dataframe(alunos)
+    else:
+        st.info("nenhum aluno encontrado!")

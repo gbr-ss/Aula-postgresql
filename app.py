@@ -48,3 +48,5 @@ elif menu == "Deletar":
         if st.button("Deletar"):
             deletar_aluno(id_aluno)
             st.success("Aluno deletado com sucesso ✔")
+    else:
+        st.info("Nenhum aluno disponível para atualizar")
